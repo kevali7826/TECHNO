@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question2</title>
+    <link rel="stylesheet" href="question2.css" />
+  </head>
+  <body>
+    <h2>
+      2. Create a student admission form for the college webpage using HTML form
+      objects. (include a select tag for the chosen stream). note: The form
+      should ask all the necessary questions using appropriate form elements
+    </h2>
+
+    <h1>College Admission Form</h1>
+    <h4>Enter Your Admission ingormation below</h4>
+    <hr />
+    <div>
+        <label for="text1">Name </label>
+    </div>
+    <div class="names">
+      <div>
+        <input type="text" name="text" id="text1" />
+        <div class="fonts">
+            <p>First Name</p>
+        </div>
+      </div>
+      <div >
+        <input type="text" name="text" id="text1" />
+       <div class="fonts">
+        <p>Middle Name</p>
+       </div>
+      </div>
+      <div>
+        <input type="text" name="text" id="text1" />
+       <div class="fonts">
+        <p>Last Name</p>
+       </div>
+      </div>
+    </div>
+    <label for="dateOfBrith">Date of Brith</label>
+    <div class="selects">
+      <div>
+        <select name="Please select a month" id="dateofbrith">
+          <option value="month">Please select a month</option>
+          <option value="jan">januray</option>
+          <option value="feb">February</option>
+          <option value="mar">March</option>
+          <option value="apr">April</option>
+          <option value="may">May</option>
+          <option value="jun">June</option>
+          <option value="jul">July</option>
+          <option value="aug">August</option>
+          <option value="sep">September</option>
+          <option value="oct">October</option>
+          <option value="nov">November</option>
+          <option value="dec">December</option>
+        </select>
+        <div class="fonts">
+            <p>month</p>
+        </div>
+      </div>
+      <div>
+        <select name="Please select a day" id="dateofbrith">
+          <option value="day">Please select a day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+       <div class="fonts">
+        <p>day</p>
+       </div>
+      </div>
+      <div>
+        <select name="Please select a year" id="dateofbrith">
+          <option value="year">Please select a year</option>
+          <option value="">1999</option>
+          <option value="">2000</option>
+          <option value="">2001</option>
+          <option value="">2002</option>
+          <option value="">2003</option>
+          <option value="">2004</option>
+          <option value="">2005</option>
+          <option value="">2006</option>
+          <option value="">2007</option>
+          <option value="">2008</option>
+          <option value="">2009</option>
+          <option value="">2010</option>
+        </select>
+        <div class="fonts">
+            <p>year</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div>
+        <div>
+          <label for="gender">Gender</label>
+        </div>
+        <div class="gender">
+          <input type="radio" name="male" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="male" id="male" />
+          <label for="male">female</label>
+        </div>
+      </div>
+      <div class="countries">
+        <label for="">Of which country are you a citizen?</label>
+        <div >
+          <select name="country" id="country">
+            <option value="select">please select</option>
+            <option value="ind">india</option>
+            <option value="newyark">newyark</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="paris">PARIS</option>
+            <option value="german">GERMAN</option>
+            <option value="chaina">CHAINA</option>
+            <option value="korea">KOREA</option>
+            <option value="pak">PAKISTHAN</option>
+            <option value="spain">SPAIN</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <label for="phone">Phone</label>
+    <div class="display">
+      <div class="phone">
+        <input
+          type="number"
+          name="number"
+          id="phone"
+          placeholder="(000) 000-0000"
+        />
+      </div>
+      <div class="emails">
+        <p>Email Address</p>
+      </div>
+      <div class="phone" >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="ex:myname@example.com"
+        />
+        <p>example@example.com</p>
+      </div>
+    </div>
+    <div class="mails">
+      <label for="mail">Mailing Address</label>
+      <div>
+        <input type="mail" name="mail" id="mail" />
+      </div>
+    </div>
+    <div>
+      <button>submit</button>
+    </div>
+  </body>
+</html>

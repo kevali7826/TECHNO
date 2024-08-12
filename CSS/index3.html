@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index3.css">
+    <style>
+        .container{
+            border: 3px solid red;
+             height: 70vh;
+            display: flex;
+            /* flex-direction: column; */
+
+            /* parent properties */
+            align-items: start;
+            flex-wrap: wrap;
+            /* margin: 10px; */
+            /* gap: 10px; */
+            /* flex-flow: row wrap; 
+             [combination of flex wrap and flex flow] */
+
+             justify-content: space-between;
+             /* it axis on the cross axis */
+             /* it align items on the basis of width content */
+             /* align-items: center; */
+             /* align-items: center; */
+             /* align-content: flex-start; */
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            border: 3px solid green;
+            width: 100px;
+            /* height: 50px; */
+            flex-basis: 25%;
+           /* align-self: flex-start; */
+           /* it acts on it self only it can do wahtever size and width */
+        }
+        /* //child properties */
+        #box1{
+            /* order: 1; */
+            /* flex-grow:1 ; */
+            /* flex-grow  by default  it has 0 (zero)*/
+
+            /* flex :[flex grow,flex shrink, flex basis] */
+              
+        }
+        #box2{
+            /* order: 4; */
+            /* flex-grow: 2; */
+            /* flex-shrink: 1; */
+            /* flex-shrink it is by default 1 only */
+            /* flex-basis: 200px; */
+        }
+
+    </style>
+</head>
+<!-- flex,grid,pseduoclasses,pseudo elements,overflow -->
+<body>
+   <!-- .container>.box#box${box-$}*8 -->
+    <div class="container">
+        <div class="box" id="box1">box-1</div>
+        <div class="box" id="box2">box-2</div>
+        <div class="box" id="box3">box-3</div>
+        <div class="box" id="box4">box-4</div>
+        <div class="box" id="box5">box-5</div>
+        <div class="box" id="box6">box-6</div>
+        <div class="box" id="box7">box-7</div>
+        <div class="box" id="box8">box-8</div>
+    </div>
+</body>
+</html>

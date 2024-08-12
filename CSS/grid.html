@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- grid one directional -->
+ <!-- grid is 2 directinal -->
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+      height: 80vh;
+      display: grid;
+      /* grid-template-columns:100px 200px 100px 100px ; */
+      /* grid-template-columns: 1fr 2fr 1fr; */
+      /* grid-template-columns: 100px 1fr 2fr; */
+      grid-template-columns: repeat(3,1fr);
+      /* (kitne colums, kitne width chaiye) */
+      /* grid-template-columns: repeat(auto-fill,500px); */
+      /* -> to make responsive it works grid on css */
+      gap: 10px;
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* flex-start,flex-end, center */
+      /* grid-template-rows: 2fr 2fr 4fr; this is not use as mucha swe use colums */
+      grid-template-areas: " hdr hdr hdr hdr"
+                            "sbr main main main"
+                             "sbr main main main"
+                             "sbr main main main"
+                             "ftr ftr ftr ftr";
+
+    }
+    .box{
+        background-color: aqua;
+        border: 1px solid black;
+    }
+    #box1{
+      /* grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end:3 ; */
+      /* grid-column:1/span 3; */
+      grid-area: hdr;
+    }
+    /* #box3{
+        grid-row-start: 1;
+        grid-row-end:6;
+    }
+#box7{
+    grid-column-start: 5;
+    grid-column-end:10 ; */
+/* } */
+#box2{
+    grid-area: main;
+}
+#box3{
+    grid-area: sbr;
+}
+#box4{
+    grid-area: ftr;
+}
+#box5{
+    grid-area: sbr;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box-1</div>
+        <div class="box" id="box2">box-2</div>
+        <div class="box" id="box3">box-3</div>
+        <div class="box" id="box4">box-4</div>
+        <div class="box" id="box5">box-5</div>
+        <!-- <div class="box" id="box6">box-6</div>
+        <div class="box" id="box7">box-7</div>
+        <div class="box" id="box8">box-8</div>
+        <div class="box" id="box9">box-9</div>
+        <div class="box" id="box10">box-10</div>  -->
+    </div>
+</body>
+</html>

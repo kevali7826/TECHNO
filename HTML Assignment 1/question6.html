@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question6</title>
+    <style>
+          ul li:first-child{
+            background-color: brown;
+          }
+          ul li:last-child{
+            background-color: blueviolet;
+          }
+          ul li:nth-child(2n+1){
+            background-color: pink;
+          }
+          /* /for odd numbers in nth (2n+1) */
+
+          /* -> pseudo elements */
+          /* first-letter,frist-line,before,after,selection */
+    /* p::selection{
+        background-color: black;
+        color: white;
+
+    }
+    h1::first-letter{
+        background-color: goldenrod;
+    }
+    h1::first-line{
+        background-color: cornflowerblue;
+    } */
+#para:hover::before{
+    content: "hello techno";
+    /* width:200px ;
+    height: 200px; */
+    background-color: blue;
+    padding: 20px;
+}
+.para2::after{
+    content: "kevali";
+    font-size: 50px;
+    background-color: greenyellow;
+}
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>item-1</li>
+        <li>item-2</li>
+        <li>item-3</li>
+        <li>item-4</li>
+        <li>item-5</li>
+        <li>item-6</li>
+        <li>item-7</li>
+        <li>item-8</li>
+        <li>item-9</li>
+        <li>item-10</li>
+    </ul>
+    <ul>
+        <li>xox-1</li>
+        <li>xox-2</li>
+        <li>xox-3</li>
+        <li>xox-4</li>
+    </ul>
+    <h1>Kevali.. Ashok kanagale</h1>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus reprehenderit tempora ex laudantium delectus voluptatum? Facilis, alias consequatur. Est maxime magni, eum ipsam reiciendis alias sit asperiores commodi quis laborum!
+    Incidunt dolor vitae omnis est eum ipsa. Recusandae, enim repudiandae quasi facilis iure dolores eligendi nihil! Quos aliquam quibusdam ducimus reprehenderit accusamus doloribus dolore vero, quam enim optio perferendis cumque!
+    Amet ratione, odio recusandae rerum temporibus, illum placeat debitis, consequuntur eveniet quis deleniti ex voluptates consequatur minima. Culpa cumque accusamus eos, sed impedit reiciendis esse ut magni, minima distinctio incidunt?
+    Ut alias facere aliquid eveniet vel fugiat est non quaerat, doloremque ea ipsa magnam qui molestias ipsum obcaecati. Ullam ratione ut fugiat consectetur, aliquam beatae earum inventore deserunt exercitationem. Tempore?
+    Veniam, atque asperiores! Sit fugit, optio vero assumenda in quos labore architecto dolorum enim quod quas soluta animi ratione? Exercitationem, quos quasi. Molestias eius incidunt consequatur vel optio earum nostrum.
+    Mollitia, voluptas iste explicabo iusto ipsum in vel, sapiente soluta ullam assumenda ipsam itaque cumque quasi placeat. Sint facere provident sequi quasi, temporibus natus possimus libero asperiores. Commodi, libero porro.
+    Veritatis facere reprehenderit suscipit eaque tenetur ea culpa error necessitatibus dolores. Alias cumque voluptatem possimus odit consectetur ipsam libero aperiam! Voluptatibus, doloribus? Mollitia earum sequi perferendis iste delectus cum molestias!
+    Corporis doloremque nobis ad labore autem voluptatum optio deleniti dolorum veritatis. Temporibus eos quibusdam consequatur nisi dolor id quae ullam qui sapiente! Provident ab temporibus deserunt quam nostrum. Ad, fugit?
+    Sequi harum tempora porro dolore quas doloremque. Ratione necessitatibus assumenda delectus corporis fuga! Dolorem rerum laudantium maxime, aperiam ipsam sint praesentium dignissimos a minima, repellendus enim eum aliquam illo error.
+    Corrupti dolore error quidem, dicta cupiditate libero delectus illum impedit eum obcaecati, minima quibusdam dignissimos vel explicabo aliquid reprehenderit non voluptatibus, voluptates eaque eius et exercitationem deleniti at? Blanditiis, esse?</p>\
+    <div class="para2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, deleniti.</p>
+    </div>
+</body>
+</html>
