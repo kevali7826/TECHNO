@@ -1,0 +1,33 @@
+QUES1:
+WHAT IS THE DIFF BETWEEN VAR,LET,CONST  //they ask us to define how it wiil be like? so have to tell like this
+ans://variable defined with var can be redeclred or can be reassigned
+// let var2=40;
+// var2=50;
+
+// var:
+//variable defined with var can be redeclred or can be reassigned
+//  let: 
+//variable can defined with let cannot be redecalred but can be reassigned
+// const: 
+const num3=100;
+num3=1000;
+// variable defined with const con not be redeclred or re assigned
+
+
+quesion2:/here name is a reserved keyword we use name as in input also in html so....those are resrved key we can't write
+
+var name1='kevali'
+console.log(name1);
+
+ques3: //undefined type kya hai..
+ans: undefine ek valu bhi haitype bhi hai..
+
+ques4: what is Array
+ans: collection of multiple datatypes
+
+[{},{},{}]//this is array of objects  this is the concept of json format,,in backend use in array
+
+// Q. spread & rest gor destructuring..in imterview
+//javascript info==> which gives the more information about the js or gfg or w3 school
+
+// 

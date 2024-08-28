@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="task4.css" />
+    <link rel="stylesheet" href="bigDesktop.css">
   </head>
   <body>
     <div class="navbar">
@@ -12,13 +13,13 @@
        <a href="#"><img alt="NicePage.com" src="//csite.nicepage.com/Images/logo-w.png" /></a>
       </div>
        <div class="softwares">
-         <div class="software-1">
+         <div class="software-1" id="desktop">
            <a href="#"><img
              alt="Responsive Desktop Mode"
              src="//csite.nicepage.com/Images/Site/responsive-desktop.png"
            /></a>
          </div>
-        <div>
+        <div class="desktop">
          <a href="#"><img
            alt="Responsive Laptop Mode"
            src="//csite.nicepage.com/Images/Site/responsive-laptop.png"
@@ -46,13 +47,16 @@
      </div>
   
     <div class="image">
-      <div class="art">
-        <h1 style="text-align : center;">ART </h1>
-      </div>
-      <div class="art"  >
-        <h1 style="margin-top: 550px; font-size:10vw ; width: 190%; text-align: center;">SCHOOL</h1>
+      <div class="page1">
+        <div class="art">
+          <h1>ART </h1>
+        </div>
+        <div class="school"  >
+          <h1 >SCHOOL</h1>
+        </div>
       </div>
     </div>
+    
  <div class="about-school">
       <div class="art-school">
         <div class="childh1">
@@ -76,22 +80,11 @@
               </div>
             
       </div>
-      <!-- <div class="art-school"> -->
-        <!-- <div class="childh1">
-          <h3>ABOUT OUR SCHOOL</h3>
-        </div> -->
-       <!-- <div class="childpara1">
-                <p>
-                  Key information about the University’s history, mission and values,
-                  governance and committees, affiliations and associations and
-                  official publications.
-                </p>
-              </div> -->
-      <!-- </div> -->
+    
     </div> 
     <div class="white-page">
       <div class="main3-center">
-        <h1>ALL OUR PROGRAMS</h1>
+        <h1 class="page3-head">ALL OUR PROGRAMS</h1>
         <div class="page3-parac">
           <p>
             At The Marvegos Fine Art School we encourage creativity through art
@@ -207,7 +200,9 @@
         />
       </div>
       <div class="page4-text">
+       <div class="heading">
         <h1>WE'D LOVE TO HEAR FROM YOU</h1>
+       </div>
         <div class="page4-para">
           <p>
             The atmosphere is relaxed, fun and social, allowing kids to pursue
@@ -232,61 +227,73 @@
         </p>
       </div>
       </div>
-      <div class="page5-images">
+      <div class="page5-images" style="display: flex; justify-content: center; align-items: center;width: 80%;">
+       
+          <div class="page5-img1" style="">
+            <img 
+              src="https://6185236.fs1.hubspotusercontent-na1.net/hub/6185236/hubfs/Website%20Images%202023/webp/Coverage-Overview-Collections-Banner.webp?width=300&name=Coverage-Overview-Collections-Banner.webp"
+              alt="img1"
+            />
+          </div>
+          <div class="page5-img1">
+            <img 
+              src="https://assets.website-files.com/6290f254792890e3517659b0/62c126515931985344736373_wrok-03-p-500.jpeg"
+              alt="img2"
+            />
+          </div>
+       
+       
+          <div class="page5-img1">
+            <img 
+              src="https://img.faculty.unlv.edu/lab/wp-content/uploads/2019/11/Content-Photo-2-DONE.jpg"
+              alt="img3"
+            />
+          </div>
+          
+            <div class="page5-img1">
+              <img  
+                src="https://capsuletimecom.wordpress.com/wp-content/uploads/2024/02/pexels-photo-1572386-edited.jpeg"
+                alt="img4"
+              />
+            </div>
+       
+         
+          <div class="page5-img1">
+            <img 
+              src="https://forndesantjoan.com/wp-content/uploads/2017/07/restaurant-in-palma-museums-galleries-432x288.jpg"
+              alt="img5"
+            />
+          </div>
+        
         <div class="page5-img1">
-          <img
-            src="https://6185236.fs1.hubspotusercontent-na1.net/hub/6185236/hubfs/Website%20Images%202023/webp/Coverage-Overview-Collections-Banner.webp?width=300&name=Coverage-Overview-Collections-Banner.webp"
-            alt="img1"
-          />
-        </div>
-        <div class="page5-img1">
-          <img
-            src="https://assets.website-files.com/6290f254792890e3517659b0/62c126515931985344736373_wrok-03-p-500.jpeg"
-            alt="img2"
-          />
-        </div>
-        <div class="page5-img1">
-          <img
-            src="https://img.faculty.unlv.edu/lab/wp-content/uploads/2019/11/Content-Photo-2-DONE.jpg"
-            alt="img3"
-          />
-        </div>
-        <div class="page5-img1">
-          <img
-            src="https://capsuletimecom.wordpress.com/wp-content/uploads/2024/02/pexels-photo-1572386-edited.jpeg"
-            alt="img4"
-          />
-        </div>
-        <div class="page5-img1">
-          <img
-            src="https://forndesantjoan.com/wp-content/uploads/2017/07/restaurant-in-palma-museums-galleries-432x288.jpg"
-            alt="img5"
-          />
-        </div>
-        <div class="page5-img1">
-          <img
-            src="https://scontent-del1-2.xx.fbcdn.net/v/t39.30808-6/251990899_185958553698528_4687136729931876881_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GuC00vvYAX4Q7kNvgHeTtxh&_nc_ht=scontent-del1-2.xx&oh=00_AYDZq40hR779vYze29sLDqFL6taXH2H43PH3ddAdHBeRig&oe=66BD5433"
+          <img 
+            src="page5-img6.jpeg"
             alt="img6"
           />
         </div>
+        
       </div>
     </div>
     <div class="page6">
-      <div class="page6-text">
-        <h1>5K</h1>
-      <P>STUDENTS</P>
+      <div class="page6-half1">
+        <div class="page6-text1">
+          <h1>5K</h1>
+        <P>STUDENTS</P>
+        </div>
+        <div class="page6-text2">
+          <h1>150</h1>
+        <p>TEACHERS</p>
+        </div>
       </div>
-      <div class="page6-text">
-        <h1>150</h1>
-      <p>TEACHERS</p>
-      </div>
-      <div class="page6-text">
-        <h1>45</h1>
-          <p>WINNERS</p>
-      </div>
-      <div class="page6-text">
-        <h1>250</h1>
-      <p>AWARDS</p>
+      <div class="page6-half2">
+        <div class="page6-text3">
+          <h1>45</h1>
+            <p>WINNERS</p>
+        </div>
+        <div class="page6-text4">
+          <h1>250</h1>
+        <p>AWARDS</p>
+        </div>
       </div>
     </div>
     <div class="page7">
@@ -305,7 +312,9 @@
         <div class="page8-parat">
           <h1>QUESTIONS?</h1>
         <h1>COOMENTS?</h1>
-        <H1>WE'D LOVE TO FEAR FROM YOU</H1>
+        <div class="page8-head3">
+          <h1>WE'D LOVE TO FEAR FROM YOU</h1>
+        </div>
        <div class="timing-para">
         <p>The school is open 10:00am to 5:00pm Tuesday to Friday and 10:00am to 3:00pm on Saturday. During July and August Summer Camps, we're open from Monday to Friday 8:30am to 4:30pm.</p>
        </div>

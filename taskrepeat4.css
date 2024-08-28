@@ -1,0 +1,120 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: ubuntu, sans-serif;
+  }
+.navbar {
+    height: 10%;
+    position: fixed;
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    display: flex;
+    z-index: 999;
+  }
+.main-logo  {
+    height: 100%;
+    width: 19%;
+    padding-top: 1.2%;
+    margin-left: 1%;
+  }
+  .main-logo img{
+    height: 50%;
+    width: 50%;
+  }
+  .softwares{
+   height: 65%;
+    display: flex;
+    margin: 0 auto;
+    width: 35%;
+    /* border: 2px solid red; */
+   }
+  .softwares img {
+    height: 68%;
+    width: 100%;
+    margin-top: 50%;
+    /* border: 2px solid red; */
+  }
+  .softwares img:active {
+    color: #d0e5e9;
+    background-color: #d0e5e9;
+  }
+   .page1-image {
+    background-image: url("image12.jpeg");
+    height: 1100px;
+    width: 100%;
+  } 
+  .empty{
+    height: 4.6rem;
+    width: 100%;
+    background-color: black;
+  }
+  .page1{
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 52%;
+    /* border: 2px solid white; */
+  }
+  .page1-image .page1-text1 {
+    font-size: 2.1rem; 
+    color: white;
+    width: 100%;
+    /* border: 2px solid red; */
+  } 
+  .page1-image .page1-text2  {
+    font-size: 6.1rem;
+    color: white;
+    padding-top: 25%;
+  }
+
+  .page2 {
+    height: 680px;
+    width: 100%;
+    background-color: #7da2a9;
+    text-align: center;
+    display: flex;
+    color: white;
+  }
+  .page2-half1{
+    height: 680px;
+    width: 50%;
+    text-align: end;
+    align-items: center;
+    /* border: 2px solid white; */
+  }
+  .page2-half2{
+    height: 680px;
+    width: 50%;
+  text-align: start;
+    /* border: 2px solid white; */
+  }
+  .page2-half2 .childh1 p{
+    font-size: 22px;
+    height: 100px;
+    width: 330px;
+    line-height: 35px;
+    margin-top: 400px;
+    /* border: 2px solid white; */
+  }
+  
+  .childpara1 p {
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 15px;
+    height: 100px;
+    width: 630px;
+    word-wrap: wrap;
+  
+    color: white;
+    text-align: start;
+    font-size: 22px;
+    line-height: 35px;
+  } 
+
+  @media (max-width:768px)and (max-width:900px){
+    h1{
+     background-color: red;
+    }
+  }

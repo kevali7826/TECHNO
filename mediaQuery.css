@@ -1,0 +1,45 @@
+.para1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    border: 5px solid green;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image img{
+    height: 600px;
+    width: 600px;
+}
+@media (min-width:760px){
+    /* .para1{
+        font-size: 60px;
+        font-family: cursive;
+        font-weight: 700px;
+        border-radius: 50%;
+    } */
+    .head{
+   background-color: yellowgreen;
+    }
+     /* .image .imge{
+        background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg");
+        height: 960px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+     }
+     .imge h1{
+       font-size: 90px;
+     } */
+}
+@media (max-width:430px){
+    /* .para1{
+        font-size: 20px;
+        border: 10px solid black;
+    } */
+    .head{
+        font-weight: 200px;
+        background-color: blueviolet;
+    }
+}
